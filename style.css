@@ -1,29 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 .combination{
-    width:980px;
+    width:680px;
     margin-left:20%;
     display:flex;
     margin-top:4%;
+    border-radius:10px;
+   overflow:hidden;
+   box-shadow: 5px 5px 44px rgb(109, 98, 98);
+
 
 }
 body{
     background-color:#F3E1E3;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.login h2{
+    font-weight:700;
 }
 .login{
-    width:35%;
+    width:50%;
     text-align:center;
-    background-color: white;;
+    background-color: white;
+    overflow:hidden;
 
 }
 .description{
-    width:35%;
+    width:50%;
     background-color:#FF4455;
 }
 .email{
     padding:10px;
     width:245px;
     background-color:#EFEFEF;
+    border:1px solid #ccc;
+    border-radius:5px;
 }
 .login a{
     text-decoration:none;
@@ -34,7 +44,4 @@ body{
 }
 .log-in{
     margin-bottom:57px;
-}
-h2{
-    color:#676767'
 }
